@@ -25,7 +25,7 @@ let musicianSchema = new mongoose.Schema({
       default: true
     },
     popularSong: String,
-    department: {
+    bandOrGroup: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'BandOrGroup'
     }
